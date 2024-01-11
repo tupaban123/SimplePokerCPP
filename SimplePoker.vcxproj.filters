@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Card">
+      <UniqueIdentifier>{75099942-5d79-4c57-9710-77012d054358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player">
+      <UniqueIdentifier>{8ce5c1e9-ab25-4e5b-9422-86739ae4d63c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Couple">
+      <UniqueIdentifier>{0f5c4020-cac4-488c-ac4c-63c2014f3ad4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Combinations">
+      <UniqueIdentifier>{adfe579f-f07c-475d-ae01-a24a509de321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Combinations\Comparator">
+      <UniqueIdentifier>{de7dda43-13a2-4bbd-babc-8397ecf89147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Combinations\Finder">
+      <UniqueIdentifier>{f02a35dc-33e5-41f5-924c-7760936368fa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SimplePoker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Card\Card.cpp">
+      <Filter>Source Files\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Player.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Couple\Couple.cpp">
+      <Filter>Source Files\Couple</Filter>
+    </ClCompile>
+    <ClCompile Include="Combinations\Finder\CombinationsFinder.cpp">
+      <Filter>Source Files\Combinations\Finder</Filter>
+    </ClCompile>
+    <ClCompile Include="Combinations\Comparator\CombinationsComparator.cpp">
+      <Filter>Source Files\Combinations\Comparator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Card\Card.h">
+      <Filter>Source Files\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="Player\Player.h">
+      <Filter>Source Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Couple\Couple.h">
+      <Filter>Source Files\Couple</Filter>
+    </ClInclude>
+    <ClInclude Include="CardsValue.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Suits.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Combinations\Combinations.h">
+      <Filter>Source Files\Combinations</Filter>
+    </ClInclude>
+    <ClInclude Include="Combinations\Finder\CombinationsFinder.h">
+      <Filter>Source Files\Combinations\Finder</Filter>
+    </ClInclude>
+    <ClInclude Include="Combinations\Comparator\CombinationsComparator.h">
+      <Filter>Source Files\Combinations\Comparator</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
