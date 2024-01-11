@@ -142,18 +142,5 @@ int main()
 
 	std::cout << "Winner: " << cc.CompareCombinations(players, tableDeck).name << std::endl;
 
-	/*std::vector<Card> cards;
-	cards.push_back(Card(CardsValue::Queen, Suits::Diamonds));
-	cards.push_back(Card(CardsValue::Six, Suits::Diamonds));
-	cards.push_back(Card(CardsValue::Five, Suits::Hearts));
-	cards.push_back(Card(CardsValue::Two, Suits::Hearts));
-	cards.push_back(Card(CardsValue::Four, Suits::Diamonds));
-	cards.push_back(Card(CardsValue::Jack, Suits::Clubs));
-	cards.push_back(Card(CardsValue::Two, Suits::Diamonds));
-
-	CombinationsFinder cf = CombinationsFinder();
-
-	bool isStraight = cf.isPairsCombination(cards);*/
-
 	return 0;
 }
